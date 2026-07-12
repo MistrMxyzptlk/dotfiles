@@ -1,0 +1,107 @@
+# Catppuccin Frappe dircolors
+# Palette mapping (Frappe): 
+# Blue=69, Green=114, Red=203, Yellow=223, Teal=110, Lavender=141, Peach=216
+
+# Global settings
+COLOR tty
+EIGHTBIT 1
+
+# File type colors
+NORMAL 00
+FILE 00
+DIR 01;34       # blue
+LINK 01;36      # teal
+FIFO 33         # yellow-ish
+SOCK 35         # lavender (magenta family)
+DOOR 35
+BLK 01;33       # bright yellow
+CHR 01;33
+ORPHAN 01;31    # red
+MISSING 01;31
+
+# Executables
+EXEC 01;32      # green
+
+# Archives / compressed
+.tar 01;31
+.tgz 01;31
+.arc 01;31
+.arj 01;31
+.taz 01;31
+.lzh 01;31
+.lzma 01;31
+.tlz 01;31
+.txz 01;31
+.zip 01;31
+.z   01;31
+.Z   01;31
+.dz  01;31
+.gz  01;31
+.lz  01;31
+.xz  01;31
+.bz2 01;31
+.bz  01;31
+.tbz 01;31
+.tbz2 01;31
+.tz  01;31
+.deb 01;31
+.rpm 01;31
+.jar 01;31
+.war 01;31
+.rar 01;31
+.7z  01;31
+.apk 01;31
+.iso 01;31
+.img 01;31
+
+# Images
+.jpg 01;33
+.jpeg 01;33
+.gif 01;33
+.bmp 01;33
+.pbm 01;33
+.pgm 01;33
+.ppm 01;33
+.tga 01;33
+.xbm 01;33
+.xpm 01;33
+.tif 01;33
+.tiff 01;33
+.png 01;33
+.svg 01;33
+.webp 01;33
+
+# Audio
+.aac 01;36
+.au  01;36
+.flac 01;36
+.mid 01;36
+.midi 01;36
+.mka 01;36
+.mp3 01;36
+.mpc 01;36
+.ogg 01;36
+.opus 01;36
+.wav 01;36
+
+# Video
+.mp4 01;35
+.mkv 01;35
+.avi 01;35
+.mpg 01;35
+.mpeg 01;35
+.flv 01;35
+.mov 01;35
+.webm 01;35
+
+# Documents
+.pdf 00;35      # lavender
+.ps  00;35
+.doc 00;35
+.docx 00;35
+.xls 00;35
+.xlsx 00;35
+.ppt 00;35
+.pptx 00;35
+.md 00;36       # teal
+.txt 00         # normal

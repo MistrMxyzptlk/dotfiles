@@ -1,0 +1,19 @@
+# Deny everything by default. ~/.config is symlinked whole into this repo
+# on this machine, so without this we'd pick up browser profiles, IDE
+# caches, pulse cookies, etc. Only the paths explicitly allowed below
+# are ever tracked.
+/*
+!.gitignore
+!README.md
+!install.sh
+!packages.md
+!.zshrc
+!.p10k.zsh
+!.dircolors-frappe
+!.config
+
+/.config/*
+!/.config/kitty
+!/.config/i3
+
+/.config/kitty/*.bak
