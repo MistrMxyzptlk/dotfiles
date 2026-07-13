@@ -18,7 +18,6 @@ link .zshrc
 link .p10k.zsh
 link .dircolors-frappe
 link .config/kitty
-link .config/i3
 
 if [ "$(command -v zsh)" ] && [ "$SHELL" != "$(command -v zsh)" ]; then
   echo "Tip: run 'chsh -s \$(command -v zsh)' to make zsh your login shell."

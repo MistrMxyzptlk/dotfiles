@@ -1,6 +1,6 @@
 # dotfiles
 
-Shell and CLI setup: zsh (zinit + powerlevel10k), kitty, i3, dircolors theme.
+Shell and CLI setup: zsh (zinit + powerlevel10k), kitty, dircolors theme.
 
 Source machine is Arch Linux; this is meant to be restored onto Ubuntu, so
 see `packages.md` for the apt equivalents before running `install.sh`.
@@ -22,7 +22,6 @@ there (`*.bak.<timestamp>`). Safe to re-run.
 
 - `.zshrc`, `.p10k.zsh`, `.dircolors-frappe` — zsh + prompt + `ls` colors
 - `.config/kitty/` — terminal emulator config
-- `.config/i3/` — window manager config
 
 `~/.config` is symlinked whole to `dotfiles/.config` on the source machine,
 so `.gitignore` explicitly denies everything by default and only allows the
